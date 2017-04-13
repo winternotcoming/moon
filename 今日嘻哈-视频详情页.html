@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <title>今日嘻哈-视频详情页</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/today.css" rel="stylesheet">
+</head>
+<body>
+<div class="xiha-wrap">
+<div class="box">
+<div class="navbar-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand hidden-xs  xiha-navbar" href="#">嘻哈帮街舞</a>
+                    <a class="navbar-brand navbar-brand-wap visible-xs" href="#">嘻哈帮街舞</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class=""><a href="#">首页</a></li>
+                        <li class="active"><a href="#">今日嘻哈</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">课程舞种<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">课程介绍</a></li>
+                                <li><a href="#">舞种介绍</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">师资力量</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">新闻视频<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">新闻中心</a></li>
+                                <li><a href="#">街舞视频</a></li>
+                                <li><a href="#">舞耀盛汇</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">全国连锁</a></li>
+ <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多栏目<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">荣誉资质</a></li>
+                                <li><a href="#">街舞入门</a></li>
+                                <li><a href="#">关于我们</a></li>
+                                <li><a href="#">加盟我们</a></li>
+                                <li><a href="#">联系我们</a></li>
+                            </ul>
+                        </li>
+     <li class="dropdown"><a style="color:#F00;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">媒体活动 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">活动视频</a></li>
+                                <li><a href="#">活动照片</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</div>
+<!-- banner -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item">
+            <img class="first-slide" src="img/1.jpg" alt="First slide">
+            <!--舍弃这种方法-->
+            <!--<img class="first-slide visible-xs" src="img/11.jpg" alt="First slide">-->
+        </div>
+        <div class="item">
+            <img class="second-slide" src="img/2.jpg" alt="Second slide">
+            <!--<img class="second-slide visible-xs" src="img/22.jpg" alt="Second slide">-->
+        </div>
+        <div class="item active">
+            <img class="third-slide" src="img/3.jpg" alt="Third slide">
+            <!--<img class="third-slide visible-xs" src="img/33.jpg" alt="Third slide">-->
+        </div>
+    </div>
+</div>
+<!--banner end-->
+</div>
+<!--------------------------------------------------视频详情正式开始----------------------------------------------------------------------->
+<div class="container video-dayday xiha-video-detail">
+    <!--这里的结构式把视频标题、时间、分享之类的放在了一起，而视频是单独一个盒子的结构；很难说这样安排的初衷-->
+    <div class="row xiha-title">
+        <div class="col-lg-12">
+            <h2>视频标题--视频标题--视频标题</h2>
+            <p class="visible-xs">2017-6-16 WAP</p>
+            <p class="hidden-xs"><span>2017-3-16 PC</span></p>
+            <!--上面这里放置日期分享之类的 ps:两个p标签不会同时出现，后台动态时间tap允许的话。。-->
+        </div>
+    </div>
+    <!--喏，视频放下面这里-->
+    <div class="row xiha-video ">
+        <div class="col-lg-12">
+            <p class="video-detial"><img src="img/video.png"></p>
+            <p>视频描述视频描述视频描述视频<span class="timeLast visible-xs">2017/03/16</span></p>
+        </div>
+    </div>
+    <!--没有下面需求项的话删除即可-->
+    <div class="row choose-btn visible-xs">
+        <div class="col-lg-6 col-sm-5 col-xs-6"><a href="#" class="xiha-prev btn  btn-mini" type="button">上一个</a></div>
+        <div class="col-lg-6 col-sm-5 col-xs-6"><a href="#" class="xiha-next btn  btn-mini" type="button">下一个</a></div>
+    </div>
+
+    <!--为适应移动端，对推荐部分进行重构-哇塞原先竟然是用表格 左右八四开 移动端肯定掉下去 这里不推荐在移动端展示，退一步可以少展示一些如分别两个极好-->
+    <div class="row xiha-commend">
+        <div class="col-lg-8 commend-read-left">
+            <h5>推荐阅读</h5>
+            <ul>
+                <li><a href="" title="">嘻哈帮7周年“寻找嘻哈星代言”报名即将截止</a> </li>
+                <li><a href="" title="">升龙校区万圣节花絮</a> </li>
+                <li><a href="" title="">嘻哈帮湖南大区副总（陈立）预祝亚洲星空街舞挑战赛圆满</a> </li>
+                <li><a href="" title="">没有接触过舞蹈 18岁了还能跳街舞吗？</a> </li>
+            </ul>
+        </div>
+        <div class="col-lg-4 commend-read-right">
+            <h5>相关阅读</h5>
+            <ul>
+                <li><a href="" title="">视频:全国少儿街舞展演 六一毕维嘉 齐舞</a> </li>
+                <li><a href="" title="">RAP王子毕维嘉花式演绎经典童谣《读书郎》</a> </li>
+            </ul>
+        </div>
+        <div class="row xiha-share">
+            <div class="col-lg-12">
+                <p>转载请注明:<a href="" ></a>XXXXXXX-来源于中国街舞培训实力品牌：嘻哈帮街舞 </p>
+            </div>
+        </div>
+
+        <div class="row discuss hidden-xs " style="height:200px;border:1px solid gray; text-align: center; background:#f2f2f2;">
+                <h6>这里是评论模块，目前设置的是只在PC端才会显示</h6>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!----------------------------------footer All------------------------------------->
+<section class="join">
+    <div class="container">
+        <div class="row">
+            <h3>JOIN US</h3>
+            <p>不如现在就行动吧 加入我们</p>
+            <p><a href="#"><img src="img/btn.gif"> </a> </p>
+            <p><a href="#"><img src="img/btn2.jpg"> </a> </p>
+        </div>
+    </div>
+</section>
+<footer>
+<div class="container">
+
+    <div class="row">
+        <h4><a href="#"><img src="img/contentUs.png"></a></h4>
+        <p><a href="#"><img src="img/btn3.jpg"></a></p>
+        <p>All Rights Reserved 2017 HIPHOP GANG 北京嘻哈帮</p>
+        <p>文化传播有限公司版权所有</p>
+        <p>豫ICP备11006371号-13 站长统计</p>
+        <div class="col-lg-12 friendLink">
+            <fieldset style="border:1px dashed #666; height: 54px;">
+            <legend style="color:#CCCCCC;">友情链接</legend>
+
+                    <p><a href="http://my.tv.sohu.com/us/294217660/83792280.shtml" target="_blank">街舞</a></p>
+                    <p><a href="http://www.jiutea.com/peixun/" target="_blank">茶艺培训</a></p>
+                    <p><a href="http://dzz.sjwyx.com/" target="_blank">大主宰</a></p>
+                    <p><a href="http://www.qeo.cn/369/" target="_blank">拉丁舞培训</a></p>
+
+        </fieldset>
+        </div>
+
+    </div>
+</div>
+</footer>
+<div class="xiha-wrap">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
